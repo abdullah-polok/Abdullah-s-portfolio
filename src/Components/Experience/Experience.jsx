@@ -43,16 +43,6 @@ const Experience = () => {
         <p className="text-sm text-gray-600">
           📍 Erbil, Iraq • 📞 +964 750 389 8304 • 📧
           abdullah.alrahman@ukh.edu.krd
-          <br />
-          🌐{" "}
-          <a
-            href="http://www.abdullah23.netlify.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 underline"
-          >
-            abdullah23.netlify.app
-          </a>
         </p>
       </section>
 
