@@ -1,26 +1,32 @@
 import React from "react";
 import { Link } from "react-router";
 
-const Navbar = () => {
+const Navbar = ({
+  onAboutClick,
+  onContactClick,
+  onExperienceClick,
+  onWorksClick,
+  onHomeClick,
+}) => {
   const navlinks = (
     <>
       <li>
-        <Link>HOME</Link>
+        <button onClick={onHomeClick}>HOME</button>
       </li>
       <li>
-        <Link>ABOUT</Link>
+        <button onClick={onAboutClick}>ABOUT</button>
       </li>
       <li>
-        <Link>RESUME</Link>
+        <button onClick={onExperienceClick}>RESUME</button>
       </li>
       <li>
-        <Link>WORKS</Link>
+        <button onClick={onWorksClick}>WORKS</button>
       </li>
       <li>
-        <Link>TESTIMONIALS</Link>
+        <button>TESTIMONIALS</button>
       </li>
       <li>
-        <Link>CONTACTS</Link>
+        <button onClick={onContactClick}>CONTACTS</button>
       </li>
     </>
   );
